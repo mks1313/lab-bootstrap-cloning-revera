@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    font-size: 32px; 
+    font-weight: bold;
+  }
+
+.col-md-8 {
+    filter: grayscale(100%);
+}
+.dropdown-menu {
+    background-color: #f8f9fa; 
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.dropdown-item {
+    color: #495057; 
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #e9ecef; 
+    color: #ce2a43 !important; 
+}
+.navbar-nav .nav-link:hover {
+    color: red !important;
+    text-decoration: none;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/overlay.png');
+    opacity: 0.9; 
+}
+a:hover {
+    color: white !important;
+}
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999;
+}
+.red-section span {
+    border: 5px solid #fff;
+  background: transparent;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  display: block;
+  line-height: 65px;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 20px;
+}
+  
+  .glyphicon {
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+  }
+  .red-section {
+    position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+
+
+
+
+
